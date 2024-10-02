@@ -1,0 +1,43 @@
+# Visual Studio Code
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+*.manifest
+*.spec
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Pytest
+.cache
+*.cover
+coverage.xml
+*.coveragerc
+
+# Pyre type checker
+.pyre/
+
+# Miscellaneous
+*.DS_Store
+*.log
+*.tmp
+*.swp
+*.swo
+*.swn
+Thumbs.db
