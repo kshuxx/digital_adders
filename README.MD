@@ -10,12 +10,12 @@ Welcome to the **Digital Adders** repository! This project presents implementati
     - [Why Use Adders?](#why-use-adders)
   - [Half Adder](#half-adder)
     - [Verilog Implementation](#verilog-implementation)
-    - [Python Implementation (half\_adder.py)](#python-implementation-half_adderpy)
+    - [Python Implementation Half Adder](#python-implementation-half-adder)
     - [Output Table for Half Adder](#output-table-for-half-adder)
     - [Key Features](#key-features)
   - [Full Adder](#full-adder)
     - [Verilog Implementation](#verilog-implementation-1)
-    - [Python Implementation (full\_adder.py)](#python-implementation-full_adderpy)
+    - [Python Implementation Full Adder](#python-implementation-full-adder)
     - [Output Table for Full Adder](#output-table-for-full-adder)
     - [Key Features](#key-features-1)
   - [Conclusion](#conclusion)
@@ -48,7 +48,7 @@ assign Carry = A & B; // AND operation for Carry
 endmodule
 ```
 
-### Python Implementation (half_adder.py)
+### Python Implementation Half Adder
 
 Here is a simple Python implementation of the Half Adder:
 
@@ -100,7 +100,7 @@ assign Cout = (A & B) | (B & Cin) | (A & Cin); // Majority function for Carry-ou
 endmodule
 ```
 
-### Python Implementation (full_adder.py)
+### Python Implementation Full Adder
 
 Here is a simple Python implementation of the Full Adder:
 
